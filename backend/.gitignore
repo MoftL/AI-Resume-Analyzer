@@ -1,0 +1,61 @@
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Uploads and user data
+uploads/
+*.pdf
+*.docx
+*.doc
+*.txt
+*.rtf
+
+# Downloaded models
+models/downloaded_models/
+*.bin
+*.onnx
+*.h5
+*.pkl
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
